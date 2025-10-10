@@ -53,13 +53,14 @@ This dataset enables comparative firmware analysis, differential triage, and sem
 - Python 3  
 - binwalk (for unpacking firmware)  
 - rsync (optional, improves copy performance)
+- lzop
 
 **Required Python Packages**
 - pandas  
 - requests  
 
 **Install Binwalk**
-- Ubuntu/Debian: `sudo apt-get install binwalk`
+- Ubuntu/Debian: `sudo apt-get install lzop binwalk`
 
 ---
 
